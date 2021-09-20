@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AdminServiceService } from './admin-ui/admin-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Admin';
+   constructor(private adminService:AdminServiceService) { }
 }
