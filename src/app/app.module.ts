@@ -5,7 +5,6 @@ import { AdminUiModule } from './admin-ui/admin-ui.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DummyComponent } from './dummy/dummy.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
@@ -15,8 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DummyComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
